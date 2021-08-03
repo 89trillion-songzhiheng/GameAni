@@ -16,3 +16,4 @@
    3）计算伤害数值
    
 **流程图**
+![image](https://github.com/89trillion-songzhiheng/GameAni/blob/master/picture/GameAni.png)
