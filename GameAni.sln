@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{48CBCEC8-B43B-FC26-254A-BA79E8360EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableRead", "TableRead.csproj", "{2942D715-7B30-EC73-8B5C-E65B9AA43A8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48CBCEC8-B43B-FC26-254A-BA79E8360EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CBCEC8-B43B-FC26-254A-BA79E8360EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CBCEC8-B43B-FC26-254A-BA79E8360EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CBCEC8-B43B-FC26-254A-BA79E8360EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2942D715-7B30-EC73-8B5C-E65B9AA43A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2942D715-7B30-EC73-8B5C-E65B9AA43A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2942D715-7B30-EC73-8B5C-E65B9AA43A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2942D715-7B30-EC73-8B5C-E65B9AA43A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
