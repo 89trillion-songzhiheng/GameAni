@@ -39,7 +39,7 @@ public class attack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float sd = 3;
+        
         TableManager<ArmyModel> tableManager = new TableManager<ArmyModel>();
         List<ArmyModel> list  = tableManager.GetAllModel();
         s = txt.transform.GetComponent<Text>().text;
@@ -67,7 +67,11 @@ public class attack : MonoBehaviour
              animator.SetBool("isattack", false);
              curtime += Time.deltaTime;
          }
-         
+
+         if (jian != null)
+         {
+             jian.transform.position =Vector3.MoveTowards(jian.transform.position,new Vector3(0.4f,0.2f,jian.transform.position.z+2),1);
+         }
         
     }
     //触发器出发集中事件
