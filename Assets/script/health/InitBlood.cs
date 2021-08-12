@@ -7,28 +7,22 @@ using UnityEngine.UI;
 
 
 /**
- * 初始化射手与敌人血量
+  初始化射手与敌人血量
  */
-public class hea : MonoBehaviour
+public class InitBlood : MonoBehaviour
 {
-
+    public Text enemyBlood; //敌人血量条
     
-    //敌人血量条
-    public Text emyhp;
+    public Text shootBlood; //射手血量条
     
-    //射手血量条
-    public Text myhp;
     // Start is called before the first frame update
     void Start()
     {
-        
         TableManager<ArmyModel> tableManager = new TableManager<ArmyModel>();
         List<ArmyModel> list = tableManager.GetAllModel();
-        emyhp.transform.GetComponent<Text>().text = "1000";
-        string s = list[0].MaxHp.ToString();
-        myhp.transform.GetComponent<Text>().text = s;
         
-
+        enemyBlood.text = "1000";
+        shootBlood.text = list[0].MaxHp.ToString();
     }
 
 
