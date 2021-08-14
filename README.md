@@ -50,4 +50,4 @@
 
    
 **流程图**
-![image](https://github.com/89trillion-songzhiheng/GameAni/blob/master/picture/GameAni.png)
+![image](https://github.com/89trillion-songzhiheng/GameAni/blob/master/picture/ani.png)
