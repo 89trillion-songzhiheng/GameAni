@@ -5,7 +5,8 @@
 2.设计弓箭飞行特效
 3.设计人物移动脚本，伤害计算脚本
 
-**目录结构**
+**目录结构**。
+```
 ├── Health.  //血量设置
 │   ├── InitBlood.cs  //初始化血量
 │   └── InitBlood.cs.meta
@@ -38,7 +39,7 @@
 │   ├── move.cs //移动与闲置
 │   └── move.cs.meta
 └── ShooterState.meta
-
+```
 
 **界面结构**
  Hierarchy：
