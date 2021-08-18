@@ -163,7 +163,7 @@ ModelImporter:
       curves: []
       events:
       - time: 0.47377622
-        functionName: creat
+        functionName: Creat
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: ded827bf53c56476cac03a88a96cc7d1,
           type: 3}

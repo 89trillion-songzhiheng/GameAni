@@ -58,15 +58,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\script\Attack\attack.cs" />
-     <Compile Include="Assets\script\Parse\Tools\ParseCsv.cs" />
-     <Compile Include="Assets\script\Parse\Tools\ParseCsv\ArmyModel.cs" />
-     <Compile Include="Assets\script\Parse\Tools\ParseCsv\example\BuffModel.cs" />
-     <Compile Include="Assets\script\Parse\Tools\ParseCsv\example\GameModelManager.cs" />
-     <Compile Include="Assets\script\ViewMove\WithMouse.cs" />
-     <Compile Include="Assets\script\health\hea.cs" />
-     <Compile Include="Assets\script\playmove\move.cs" />
-     <None Include="Assets\WW4_Effects_Sub\Effect\Soldier\FrostArcher\FrostArcher_effect\shader\Bingdong_vogeo.shader" />
+     <Compile Include="Assets\Script\Config\GetData.cs" />
+     <Compile Include="Assets\Script\Controller\InitBlood.cs" />
+     <Compile Include="Assets\Script\Controller\MoveAndAttack.cs" />
+     <Compile Include="Assets\Script\Data\ArmyModel.cs" />
+     <Compile Include="Assets\ThirdParty\ParseCsv\example\BuffModel.cs" />
+     <Compile Include="Assets\ThirdParty\ParseCsv\example\GameModelManager.cs" />
+     <Compile Include="Assets\ThirdParty\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\ThirdParty\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+     <Compile Include="Assets\ThirdParty\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\ThirdParty\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\ThirdParty\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\ThirdParty\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\ThirdParty\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\ThirdParty\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <None Include="Assets\Resources\WW4_Effects_Sub\Effect\Soldier\FrostArcher\FrostArcher_effect\shader\Bingdong_vogeo.shader" />
+     <None Include="Assets\ThirdParty\Plugins\Demigiant\DOTween\readme.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/songzhiheng/GameAni/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -273,6 +280,9 @@
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>/Users/songzhiheng/GameAni/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/songzhiheng/GameAni/Assets/ThirdParty/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
