@@ -21,7 +21,6 @@
 │   ├── ArmyModel.cs 存放数据
 │   └── ArmyModel.cs.meta
 └── Data.meta
-
 ```
 
 **界面结构**
