@@ -28,7 +28,7 @@ public class MoveAndAttack : MonoBehaviour
 
     void Awake()
     {
-        GetData.ReadCsv();
+        GetData.ReadCsv(); 
     }
 
     void Start()

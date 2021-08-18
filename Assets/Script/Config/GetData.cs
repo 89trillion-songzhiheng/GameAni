@@ -9,7 +9,7 @@ namespace DefaultNamespace
         /// <summary> MyMethod is a method in the MyClass class.
         /// 存放csv数据
         /// </summary>
-       public class GetData 
+       public class GetData  
         {
             public static ArmyModel armyModel; //csv字段类
             
