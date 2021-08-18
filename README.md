@@ -7,38 +7,21 @@
 
 **目录结构**。
 ```
-├── Health.  //血量设置
-│   ├── InitBlood.cs  //初始化血量
-│   └── InitBlood.cs.meta
-├── Health.meta
-├── Parse //解析工具类
-│   ├── ArmyModel.cs  //json文档实体类
-│   ├── ArmyModel.cs.meta
-│   ├── Tools
-│   │   ├── ParseCsv
-│   │   │   ├── TableRead
-│   │   │   │   ├── TableManager.cs
-│   │   │   │   ├── TableManager.cs.meta
-│   │   │   │   ├── TableParser.cs
-│   │   │   │   ├── TableParser.cs.meta
-│   │   │   │   ├── TableRead.asmdef
-│   │   │   │   └── TableRead.asmdef.meta
-│   │   │   ├── TableRead.meta
-│   │   │   ├── example
-│   │   │   │   ├── BuffModel.cs
-│   │   │   │   ├── BuffModel.cs.meta
-│   │   │   │   ├── GameModelManager.cs
-│   │   │   │   └── GameModelManager.cs.meta
-│   │   │   └── example.meta
-│   │   └── ParseCsv.meta
-│   └── Tools.meta
-├── Parse.meta
-├── ShooterState //弓箭手状态
-│   ├── Attack.cs //攻击
-│   ├── Attack.cs.meta
-│   ├── move.cs //移动与闲置
-│   └── move.cs.meta
-└── ShooterState.meta
+├── Config
+│   ├── GetData.cs //获取解析数据
+│   └── GetData.cs.meta
+├── Config.meta
+├── Controller
+│   ├── InitBlood.cs //初始化血量
+│   ├── InitBlood.cs.meta
+│   ├── MoveAndAttack.cs //人物攻击与移动
+│   └── MoveAndAttack.cs.meta
+├── Controller.meta
+├── Data
+│   ├── ArmyModel.cs 存放数据
+│   └── ArmyModel.cs.meta
+└── Data.meta
+
 ```
 
 **界面结构**
