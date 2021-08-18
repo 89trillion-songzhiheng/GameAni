@@ -24,13 +24,14 @@
 ```
 
 **界面结构**  
+```
  Hierarchy  
     1.Enemy  //敌人  
     2.Shooter //弓箭手  
     3.Canvas //展示血量的画布  
       1）ShooterBlood //射手血量  
       2）EnemyBlood //敌人血量  
-
+```
    
 **流程图**  
 ![image](https://github.com/89trillion-songzhiheng/GameAni/blob/master/Picture/AniPicture.png)
