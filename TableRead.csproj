@@ -259,14 +259,14 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="nunit.framework">
- <HintPath>/Users/songzhiheng/GameAni/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ <Reference Include="DOTween">
+ <HintPath>/Users/songzhiheng/GameAni/Assets/ThirdParty/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
  <HintPath>/Users/songzhiheng/GameAni/Assets/ThirdParty/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
- <Reference Include="DOTween">
- <HintPath>/Users/songzhiheng/GameAni/Assets/ThirdParty/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <Reference Include="nunit.framework">
+ <HintPath>/Users/songzhiheng/GameAni/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

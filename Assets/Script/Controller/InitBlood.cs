@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using script.Parse.Tools.ParseCsv;
 using TableConfig;
 using UnityEngine;

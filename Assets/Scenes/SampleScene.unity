@@ -170,7 +170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrow: {fileID: 7931067998379343659, guid: b2120db5c26bb41b29c1e5393edd006d, type: 3}
-  csvData: {fileID: 919132147480885577}
   enemy: {fileID: 28177080}
   enemyBloodText: {fileID: 461107999}
   shooter: {fileID: 5866666020368873863}
@@ -597,7 +596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e949d390bf244604a68b6513ca6aad4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  csvData: {fileID: 919132147480885577}
   enemyBlood: {fileID: 461107999}
   shootBlood: {fileID: 1453722983}
 --- !u!1 &963194225
@@ -981,7 +979,6 @@ GameObject:
   - component: {fileID: 1135617568}
   - component: {fileID: 1135617567}
   - component: {fileID: 919132147480885582}
-  - component: {fileID: 919132147480885577}
   m_Layer: 0
   m_Name: Shooter
   m_TagString: Untagged
@@ -989,18 +986,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132147480885577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132147480885575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d4c7524aabb2451481d20241fccb167, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &919132147480885582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,7 +999,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrow: {fileID: 7931067998379343659, guid: b2120db5c26bb41b29c1e5393edd006d, type: 3}
-  csvData: {fileID: 919132147480885577}
   enemy: {fileID: 28177080}
   enemyBloodText: {fileID: 461107999}
   shooter: {fileID: 5866666020368873863}

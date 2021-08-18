@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using script.Parse.Tools.ParseCsv;
 using TableConfig;
 using UnityEngine;
@@ -24,12 +25,16 @@ public class MoveAndAttack : MonoBehaviour
     private int bloodNumber = 0;   //将敌人血量存为整型
     private float gapTime = 0;     //上次攻击到现在的时间间隔
     private Vector3 enemyPositon;  //敌人位置
-    
-    
+
+    void Awake()
+    {
+        GetData.ReadCsv();
+    }
+
     void Start()
     {
         enemyPositon = enemy.transform.position;
-        attackTime = GetData.armyModel.ShootSpeed;
+        attackTime =  GetData.armyModel.ShootSpeed;
         gapTime = attackTime;
         attackPower = GetData.armyModel.Atk;
     }
