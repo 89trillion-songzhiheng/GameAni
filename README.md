@@ -18,7 +18,7 @@
 │   └── MoveAndAttack.cs.meta
 ├── Controller.meta
 ├── Data
-│   ├── ArmyModel.cs 存放数据
+│   ├── ArmyModel.cs //存放数据
 │   └── ArmyModel.cs.meta
 └── Data.meta
 ```
